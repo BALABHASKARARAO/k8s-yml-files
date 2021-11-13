@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      test: bala
   template:
     metadata:
       labels:
